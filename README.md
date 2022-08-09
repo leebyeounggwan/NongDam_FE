@@ -11,7 +11,10 @@
  <a  href="https://nongdam.site" > 농담 둘러보기</a><br/>
 
 <br/><br/>
-
+<h2>📺 발표영상</h2>
+ <a  href="https://www.youtube.com/watch?v=Si81xlu5D74" > 농담 발표영상 링크</a><br/>
+ 
+<br/><br/>
 <h2>🩻 Service Architecture</h2>
 <br/><br/>
 <a href='https://ifh.cc/v-8HHVWl' target='_blank'><img src='https://ifh.cc/g/8HHVWl.png' border='0'></a>
@@ -19,7 +22,7 @@
 <a href='https://ifh.cc/v-OBHYzW' target='_blank'><img src='https://ifh.cc/g/OBHYzW.png' border='0'></a>
 <br/><br/>
 
-<h2>서비스 핵심기능</h2>
+<h2>📍 서비스 핵심기능</h2>
 <details>
 <summary>핵심기능</summary>
  <h3>📊 농장 관리 현황</h3>
@@ -123,7 +126,7 @@
 </div>
 <br/><br/>
 	
-<h2>🛠 주요 기술</h2>
+<h2>💡 주요 기술</h2>
 <table border="1">
 	<th>사용 기술</th>
 	<th>기술내용</th>
@@ -167,7 +170,7 @@
 	<tr>
 	    <td>react-redux</td>
 	    <td align="center"> 6.3.0</td>
-	    <td>규모가 큰 프로젝트의 데이터 전역관리에 용이. mobx, recoil 등과 비교했을 때 아직까지 사용자가 압도적으로 많고 커뮤니티가 가장 발달되어 있기 때문에 제일 기본적인 상태관리 라이브러리로 이해도를 높이기 위해 사용</td>
+	    <td>규모가 큰 프로젝트의 데이터 전역관리에 용이. mobx, recoil 등과 비교했을 때 아직까지 사용자가 압도적으로 많고 커뮤니티가 가장 발달되어 있으므로 제일 기본적인 상태관리 라이브러리 이해도를 높이기 위해 사</td>
 	</tr>
 	<tr>
 	    <td>react-actions</td>
@@ -200,16 +203,16 @@
 	    <td>HTTP Client 라이브러리로 Fetch API에 비해 코드가 간결하고 JSON데이터로 자동변환 가능</td>
 	</tr>
 	<tr>
-	    <td>react-big-calendar</td>
-	    <td align="center">0.40.2</td>
-	    <td>일정 / 장부 / 일지 페이지에서 달력에 등록된 이벤트를 띄워주기 위해 사용
-react-calendar, react-datepicker 는 날짜 선택 혹은 등록된 일정의 기간을 직관적으로 보기에 용이하다면 react-big-calendar 는 등록된 이벤트의 내용을 직관적으로 보여줌</td>
+	    <td>Apexcharts.js</td>
+	    <td align="center">1.4.0</td>
+	    <td>3type(선그래프, 바그래프, 파이그래프) 차트 커스텀 및 mousehover시 나타나는 tooltip 커스텀 용이</td>
 	</tr>
 	<tr>
-	    <td>react-apexcharts</td>
-	    <td align="center">1.4.0</td>
-	    <td>차트 라이브러리로 디자인이 깔끔하고 CSS 및 데이터 커스텀에 용이</td>
+	    <td>react-big-calendar</td>
+	    <td align="center">0.40.2</td>
+	    <td>react-datepicker는 일정의 기간을 보기에 용이하다면 react-big-calendar는 등록된 이벤트 내용을 직관적으로 보여줌</td>
 	</tr>
+	
   </table>
 	
 <br/><br/>
@@ -232,7 +235,4 @@ react-calendar, react-datepicker 는 날짜 선택 혹은 등록된 일정의 �
 
 
 <h3>🧑‍🔧 제작자 </h3>
-<a href='https://ifh.cc/v-s7Xkwy' target='_blank'><img src='https://ifh.cc/g/s7Xkwy.png' border='0'></a>
-
-
-
+<a href='https://ifh.cc/v-KlXtRc' target='_blank'><img src='https://ifh.cc/g/KlXtRc.png' border='0'></a>
