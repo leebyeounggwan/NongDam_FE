@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { getUserInfo } from "../shared/KakaoOauth";
 import { kakaoLogInDB } from "../redux/modules/users";
 import { useDispatch } from "react-redux";
-
+// 백엔드 api 호출
 const OauthFilter = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
@@ -12,6 +12,7 @@ const OauthFilter = () => {
   };
 
   let memberParam = getParameter("code");
+  console.log(memberParam)
 
   useEffect(() => {
     return () => {

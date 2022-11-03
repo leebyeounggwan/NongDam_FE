@@ -142,7 +142,7 @@ const EditWorkLog = ({ workLogOne, isEdit }) => {
       }
       await axios({
         method: "put",
-        url: `https://idontcare.shop/worklog/${workLogOne.id}/update`,
+        url: `https://localhost:8080/worklog/${workLogOne.id}/update`,
         data: frm,
         headers: {
           "Content-Type": "multipart/form-data",

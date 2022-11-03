@@ -139,7 +139,7 @@ const EditMemberInfo = () => {
       }
       await axios({
         method: "put",
-        url: `https://idontcare.shop/member`,
+        url: `http://localhost:8080/member`,
         data: frm,
         headers: {
           "Content-Type": "multipart/form-data",

@@ -1,7 +1,7 @@
 import axios from "axios";
-const KAKAO_JAVASCRIPT_ID = "630186ae123bc74ad58c7e8c443369e6";
-const CLIENT_ID = "10c724757bc15a0820e711975efdbcf8";
-const REDIRECT_URI = "https://nongdam.site/code/auth";
+const KAKAO_JAVASCRIPT_ID = "d8bfa097faa117e6f0444af10096ccd1";
+const CLIENT_ID = "70c694cc264803900c72070ca488b4ed";
+const REDIRECT_URI = "http://localhost:3000/code/auth";
 
 const KAKAO_OAUTH_SERVER_URL = "https://kauth.kakao.com";
 

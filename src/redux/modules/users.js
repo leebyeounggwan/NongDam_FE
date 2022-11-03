@@ -91,7 +91,7 @@ export const logInDB = (user) => {
         console.log(res);
         const token = res.headers.authorization;
         const refreshToken = res.headers.refreshtoken;
-        const DecodedToken = jwt_decode(token);
+        //const DecodedToken = jwt_decode(token);
         sessionStorage.setItem("refreshToken", refreshToken);
         sessionStorage.setItem("jwtToken", token);
         Swal.fire({
@@ -156,7 +156,7 @@ export const kakaoLogInDB = (data) => {
       .then((res) => {
         const token = res.headers.authorization;
         const refreshToken = res.headers.refreshtoken;
-        const DecodedToken = jwt_decode(token);
+        //const DecodedToken = jwt_decode(token);
         sessionStorage.setItem("refreshToken", refreshToken);
         sessionStorage.setItem("jwtToken", token);
         Swal.fire({
