@@ -99,7 +99,7 @@ const WriteWorkLog = () => {
       }
       await axios({
         method: "post",
-        url: "https://localhost:8080/worklog",
+        url: "https://spartalbk.shop:8080//worklog",
         data: frm,
         headers: {
           "Content-Type": "multipart/form-data",

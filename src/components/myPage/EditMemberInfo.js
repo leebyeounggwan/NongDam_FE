@@ -139,7 +139,7 @@ const EditMemberInfo = () => {
       }
       await axios({
         method: "put",
-        url: `http://localhost:8080/member`,
+        url: `http://43.201.68.172:8081/member`,
         data: frm,
         headers: {
           "Content-Type": "multipart/form-data",
