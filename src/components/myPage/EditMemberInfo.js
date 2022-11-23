@@ -139,7 +139,7 @@ const EditMemberInfo = () => {
       }
       await axios({
         method: "put",
-        url: `http://43.201.68.172:8081/member`,
+        url: `https://spartalbk.shop:8080/member`,
         data: frm,
         headers: {
           "Content-Type": "multipart/form-data",
