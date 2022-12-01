@@ -1,7 +1,8 @@
 import axios from "axios";
 const KAKAO_JAVASCRIPT_ID = "d8bfa097faa117e6f0444af10096ccd1";
 const CLIENT_ID = "70c694cc264803900c72070ca488b4ed";
-const REDIRECT_URI = "http://52.79.237.34:3000/code/auth";
+// const REDIRECT_URI = "http://52.79.237.34:3000/code/auth";
+const REDIRECT_URI = "https://localhost:3000/code/auth";
 
 const KAKAO_OAUTH_SERVER_URL = "https://kauth.kakao.com";
 
